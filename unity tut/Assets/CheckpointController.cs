@@ -41,6 +41,10 @@ public class CheckpointController : MonoBehaviour
             {
                 next.SetActiveVisual(true);
             }
+            else
+            {
+                vehicle.StopTimer();
+            }
         }
     }
 }
